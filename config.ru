@@ -1,9 +1,9 @@
 require 'sinatra'
 require 'haml'
 require 'sass/plugin/rack'
-require './app'
 require 'nokogiri'
 require 'httparty'
+require './weather'
 
 Sass::Plugin.options[:style] = :compressed
 use Sass::Plugin::Rack
