@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'haml'
 require 'sass/plugin/rack'
-require 'nokogiri'
 require 'httparty'
 require './weather'
 
